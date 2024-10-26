@@ -5,8 +5,6 @@ Docker-compose to launch a Minecraft LAN
 
 ## Requirements 
 
-### Linux
-
 Firstly, modify the following of the docker-compose :
 
 ````bash
@@ -20,6 +18,8 @@ After that, please download the installer you want to use (in the current exampl
 Find your version in this website for example -> https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
 
 After that, download the file to Minecraft repository.
+
+### Linux
 
 update packages and install docker 
 
