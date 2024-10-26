@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  minecraft-server:
+    image: itzg/minecraft-server
+    container_name: minecraft
+    environment:
+      - EULA=true
+      - ONLINE_MODE=false
+      - MEMORY=8G
+      - VERSION=1.20.1          # Version de Minecraft
+      - TYPE=FORGE              # Utilisation de Forge pour les mods
+      - FORGE_INSTALLER=forge-1.20.1-47.2.17-installer.jar
+    ports:
+      - "25564:25565"            # Port du serveur Minecraft
+    volumes:
+      - ~/minecraft:/data        # Volume pour les données du serveur
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped      # Relancer le conteneur en cas d'erreur
