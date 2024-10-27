@@ -51,9 +51,18 @@ Run the server with the following :
 docker-compose up -d
 ````
 
+## Firewall
+
+As you specified the port 25564 to be joinable for your Minecraft server, please ensure that you authorize connections to this port in your firewall settings.
+
+## Download Minecraft
+
+To join the server, you should download Minecraft launcher (if you don't have official, you can try via Tlauncher -> https://tlauncher.org/en/). Once in, please be sure you run the correct version you specified in the yaml file. 
+
 ## Server access
 
 Onece done, the server will be joinable with the IP address of the serveur with the port 25564. Verify that this port is open in your firewall settings.
+So in the Minercraft launcher, you should quick join and specify <ServerIp>:<ServerPort> (here the port is 25564).
 
 ## Minecraft commands
 
