@@ -13,11 +13,11 @@ Firstly, modify the following of the docker-compose :
 - FORGE_INSTALLER=forge-1.20.1-47.2.17-installer.jar # The installer you will use
 ````
 
-After that, please download the installer you want to use (in the current example, forge-1.20.1-47.2.17-installer.jar) :
+After that, please download the installer you want to use (in the current example, forge-1.20.1-47.2.17-installer.jar).
 
 Find your version in this website for example -> https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
 
-After that, download the file to Minecraft repository.
+After that, download the file, create a repository called "minecraft" (warning it's case sensitive) at the same level then the yaml file and move the .jar file to the Minecraft repository.
 
 ### Linux
 
